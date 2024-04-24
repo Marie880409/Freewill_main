@@ -60,12 +60,42 @@
     .mobile_wrap {
         position: relative;
         display: flex;
+        flex-flow: row wrap;
+        width: 450px;
+        height: 1000px;
+        margin: 0 auto;
+        top:50px;
+        background: rgb(208, 204, 199);
+    }
+    .mobile_contatin_01 {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
         width: 401px;
         height: 401px;
-        margin: 0 auto;
-      
+        margin: 0 auto;  
         top: 50px;
         background: url(./img/tile.png) repeat 0 0 / 80px;
     }
-       
+        .m_main_01 {
+            position: absolute;
+            display: flex;
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            background: black;
+        }
+       .m_main_02 {
+        position: absolute;
+        display: flex;
+        width: 400px;
+        height: 400px;
+        top:12px;
+        left:8px;
+       }
+    .mobile_contatin_02 {
+        position: relative;
+        display:flex;
+        flex-flow: row wrap;
+    }
 }
