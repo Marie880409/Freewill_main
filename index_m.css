@@ -63,7 +63,7 @@
         display: flex;
         flex-flow: row wrap;
         width: 100%;
-        height: 1000px;
+        /* height: auto; */
         align-items: center;
         justify-content: center;
         margin: 0 auto;
@@ -77,8 +77,9 @@
         width: 401px;
         height: 401px;
         margin: 0 auto;
+        top:50px;
         padding: 0;  
-        top: -50px;
+        
         background: url(./img/tile.png) repeat 0 0 / 80px;
     }
         .m_main_01 {
@@ -89,7 +90,7 @@
             top:3px;
             left: 3px;
             border-radius: 100%;
-            background: black;
+            background: rgb(229, 86, 86);
         }
        .m_main_02 {
         position: absolute;
@@ -106,7 +107,7 @@
         width: 400px;
         height: 60px;
         margin: 0 auto;
-        top:-200px;
+        top:90px;
         justify-content: center;
         align-items: center;
         /* background: yellow; */
@@ -128,5 +129,21 @@
             line-height: 20px;
             background: #fff;
            
+        }
+    .mobile_contatin_03 {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        width: 400px;
+        height: 1000px;
+        justify-content: center;
+        background: white;
+        top:150px;
+    }
+        .m_frame {
+            position: relative;
+            width: 380px;
+            height: 200px;
+            background: wheat;
         }
 }
