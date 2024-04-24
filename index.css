@@ -25,6 +25,10 @@
             .logo_m {
                 display: none;
             }
+            .mobile_wrap {
+                display: none;
+            }
+
         .top_header_inner {
             display: flex;
             flex-flow: row nowrap;
