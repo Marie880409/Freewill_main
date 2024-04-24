@@ -24,15 +24,13 @@
             flex-flow: row nowrap;
             width: 500px;
             height: 75px;
-            top:0px;
-            margin-left: 1200px;
             color: white;
             font-family: "Kanit", sans-serif;
             font-size: 1.2rem;
             align-items: center;
             justify-content: space-between;
             cursor: pointer;
-            /* background: yellow; */
+            /* background: pink; */
         }
             .top_header_inner > a > li{
                 text-decoration: none;
@@ -164,7 +162,7 @@
             left:220px;
             font-weight: bold;
             text-align: left;
-            font-size: 8.5pt;
+            font-size: 8pt;
         }
     /*---------------------------slide 02------------------------*/
 
