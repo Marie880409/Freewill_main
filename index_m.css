@@ -30,18 +30,23 @@
         position: absolute;
         display: flex;
         flex-flow: row wrap;
-        width: 250px;
-        height: 100px;
+        width: 300px;
+        height: 150px;
+        background: pink;
     }
         .logo_m {
-            position: absolute;
+            position:relative;
             display: flex;
-            width: 250px;
-            height: 100px;
-            background: yellow;
+            width: 300px;
+            height: 110px;
+            /* background: yellow; */
             filter: invert(1);
-
         }
-
+        .logo_title {
+            position: relative;
+            display: flex;
+            width: 300px;
+            height: 40px;
+        }
        
 }
