@@ -57,14 +57,17 @@
             justify-content: center;
             
         }
+    /*-------------------- 메인----------------------*/
     .mobile_wrap {
         position: relative;
         display: flex;
         flex-flow: row wrap;
-        width: 450px;
+        width: 100%;
         height: 1000px;
+        align-items: center;
+        justify-content: center;
         margin: 0 auto;
-        top:50px;
+        top:0px;
         background: rgb(208, 204, 199);
     }
     .mobile_contatin_01 {
@@ -73,8 +76,9 @@
         flex-flow: row wrap;
         width: 401px;
         height: 401px;
-        margin: 0 auto;  
-        top: 50px;
+        margin: 0 auto;
+        padding: 0;  
+        top: -50px;
         background: url(./img/tile.png) repeat 0 0 / 80px;
     }
         .m_main_01 {
