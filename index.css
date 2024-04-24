@@ -19,9 +19,12 @@
         color: white;
         z-index: 999;
     }
-        .logo_m {
-            display: none;
-        }
+            .logo_wrap {
+                display: none;
+            }
+            .logo_m {
+                display: none;
+            }
         .top_header_inner {
             display: flex;
             flex-flow: row nowrap;
