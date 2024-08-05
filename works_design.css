@@ -47,7 +47,7 @@
             padding: 0;
             
         }
-    .top2 {
+    /* .top2 {
         display: flex;
         position: absolute;
         width: 100%;
@@ -56,7 +56,7 @@
         justify-content: center;
         margin-top:25000px;
         background:black;
-    }
+    } */
         .top2 > a {
             font-size: 11pt;
             color: white;
