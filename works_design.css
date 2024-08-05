@@ -40,7 +40,7 @@
         }
         #port_img {
             position: relative;
-            
+            width: 100%;
             justify-content: center;
             top: 50px;
             
@@ -54,7 +54,7 @@
         height: 50px;
         line-height: 50px;
         justify-content: center;
-        margin-top:18200px;
+        margin-top:15600px;
         background:black;
     }
         .top2 > a {
